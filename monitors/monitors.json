@@ -1,0 +1,12 @@
+[
+  {
+    "name": "ceph-health-watch",
+    "command": "${CLAUDE_PLUGIN_ROOT}/scripts/health-watch.sh",
+    "description": "Reports Ceph cluster health state changes (HEALTH_OK/WARN/ERR transitions)"
+  },
+  {
+    "name": "rgw-sync-watch",
+    "command": "${CLAUDE_PLUGIN_ROOT}/scripts/rgw-sync-watch.sh",
+    "description": "Reports RGW multisite sync status changes (caught up / behind / failed transitions)"
+  }
+]
