@@ -1,0 +1,14 @@
+{
+  "name": "Ceph Cookbook",
+  "base": "dark",
+  "overrides": {
+    "claude": "#2E86AB",
+    "success": "#4FA381",
+    "error": "#D64545",
+    "warning": "#E8A33D",
+    "diffAdded": "#1E4638",
+    "diffRemoved": "#5A1F1F",
+    "planMode": "#2E86AB",
+    "userMessageBackground": "#0F1E2E"
+  }
+}
