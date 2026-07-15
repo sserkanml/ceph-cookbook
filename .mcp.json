@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "ceph-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/sserkanml/ceph-mcp",
+        "ceph-mcp"
+      ],
+      "env": {
+        "CEPH_MCP_NAMESPACE": "${CEPH_MCP_NAMESPACE:-rook-ceph}",
+        "CEPH_MCP_TOOLBOX_LABEL": "${CEPH_MCP_TOOLBOX_LABEL:-app=rook-ceph-tools}",
+        "CEPH_MCP_KUBECONFIG": "${CEPH_MCP_KUBECONFIG:-}",
+        "CEPH_MCP_KUBE_CONTEXT": "${CEPH_MCP_KUBE_CONTEXT:-}"
+      }
+    }
+  }
+}
