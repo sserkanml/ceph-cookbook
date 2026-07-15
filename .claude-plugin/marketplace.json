@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ceph-cookbook",
+  "owner": {
+    "name": "Serkan",
+    "email": "info@serkannamli.com"
+  },
+  "plugins": [
+    {
+      "name": "ceph-cookbook",
+      "source": ".",
+      "description": "Skills, agents, and commands for deploying, operating, and troubleshooting Ceph storage clusters — cluster setup, OSD/MON/MGR management, pool and CRUSH map configuration, health diagnostics, and day-2 operations.",
+      "author": {
+        "name": "Serkan",
+        "email": "info@serkannamli.com"
+      },
+      "homepage": "https://github.com/sserkanml/ceph-cookbook",
+      "license": "GPL-3.0",
+      "category": "storage",
+      "tags": [
+        "ceph",
+        "storage",
+        "cluster",
+        "sysadmin",
+        "devops",
+        "sre"
+      ]
+    }
+  ]
+}
